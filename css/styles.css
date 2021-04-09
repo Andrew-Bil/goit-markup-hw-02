@@ -3,10 +3,8 @@
     --accent-cl: #2196F3;
     --grey-dg-text: #757575;
     --title-cl: #FFFFFF;
-
     --dark-dg: #2F303A;
     --second-bg: #F5F4FA;
-
     --logo-font: 'Raleway', sans-serif;
     --main-font: 'Roboto', sans-serif;
 }
@@ -193,7 +191,14 @@ body {
 }
 
 .btn-page-two {
-
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-text-cl);
+    background-color: var(--second-bg);
 }
 
 .btn-page-two:hover,
